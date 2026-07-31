@@ -7,7 +7,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		
 		<!-- My browser tab logo (png) here -->
-	
 		<link rel="icon" type="image/png" href="images/logo.png" />		
 		
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,11 +24,12 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<a href="images/resume.pdf" target="_blank" style="font-size: 2.25rem; color: #fff; text-decoration: none; border-bottom: none;">
-										Aritro Dutta
+								<!-- FIXED: Made large name clickable and link directly to resume -->
+								<a href="images/resume.pdf" target="_blank" style="text-decoration: none; border-bottom: none; pointer-events: auto; display: inline-block;">
+									<h1 style="cursor: pointer;">Aritro Dutta</h1>
 								</a>
 								<p>Hello You!</p>
-									Welcome to my portfolio.
+								Welcome to my portfolio.
 							</div>
 						</div>
 						<nav>
@@ -53,7 +53,7 @@
 								<p>I am Aritro Dutta, a graduate software engineer from Monash University, Australia. I am passionate about starting my career with an organisation that creates meaningful impacts on individual lives and communities. With a strong foundation in both theoretical and practical aspects of software engineering, I bring a wealth of experience in team collaboration, project management, and innovative problem-solving.
 									<br><br>Throughout my academic journey, I have undertaken numerous projects that have honed my skills in software development, from designing responsive web pages to developing sophisticated applications and integrating advanced technologies like augmented reality and machine learning. Notably, my involvement in the Monash Uncrewed Aerial Systems (MUAS) team has equipped me with hands-on experience in avionics and UAV software development. Check out <a href="#work">my works</a> too!
 									<br><br>I am also actively engaged in initiatives aimed at enhancing career guidance for students, leveraging AI and natural language processing to create interactive platforms. My commitment to continuous learning and my ability to adapt to new challenges make me a valuable asset to any forward-thinking organisation.
-									<a href="images/resume.pdf"><br>View Resume</a>
+									<a href="images/resume.pdf" target="_blank"><br>View Resume</a>
 								</p>
 							
 								</article>
@@ -70,14 +70,14 @@
         - Created UML diagrams, documented design, and managed versions using Git<br>
         <em>Tools:</em> LucidCharts, IDE, Git
     </p>
-       
+        
     <h3>DEC 2021 - FEB 2022</h3>
     <p>
         <strong>Web Page Development (India)</strong><br>
         - Developed a responsive web page for a leather goods company<br>
         - Optimised for PCs, tablets, and mobiles<br>
         <em>Tools:</em> HTML, CSS, Canva, Sublime IDE, Windows 11<br>
-        <a href="https://creationexport.com">Webpage Link</a>
+        <a href="https://creationexport.com" target="_blank">Webpage Link</a>
     </p>
     
     <h3>APR 2022 - FEB 2024</h3>
@@ -99,8 +99,7 @@
     <h3>MAR 2023 - NOV 2023</h3>
     <p>
         <strong>Computer Vision Engineer | CSIRO</strong><br>
-		- Trained and evaluated custom YOLOv9 object detection models in PyTorch, achieving 92% mean average precision (mAP)<br>
-		across 50+ target categories for a government research deployment.<br>
+		- Trained and evaluated custom YOLOv9 object detection models in PyTorch, achieving 92% mean average precision (mAP) across 50+ target categories for a government research deployment.<br>
 		- Profiled and optimised the execution pipeline in Python, eliminating CPU/GPU bottlenecks to cut system latency by 15ms for real-time edge processing.<br>
 		- Diagnosed and resolved hardware/software integration issues through systematic root-cause analysis, reducing hardware sync error rates below 1%.<br>
 		- Produced technical documentation and presented findings across interdisciplinary research and engineering teams.<br>
@@ -122,17 +121,16 @@
 	     - Architected a full-stack Web application using FastAPI, React, and Azure AI Services, maintaining 98% uptime for 100+ active users and managing cloud storage via Azure Blob Storage.<br>
          - Built automated ETL and document processing pipelines for 500+ documents, slashing manual processing effort by 95% and increasing data ingestion efficiency.<br>
 		 - Collaborated closely with cross-functional stakeholders to translate commercial requirements into technical features, conducting code reviews and iterative product updates.<br>
-
-	    - Provided personalised career recommendations with curated content from YouTube, Spotify, and Udemy<br>
-	    <em>Tools:</em> Azure AI, MongoDB, Git, Python
+	    <em>Tools:</em> Python, LangChain, FAISS, FastAPI, React, Azure AI, Azure Blob, MongoDB, Git
 	</p>
+
 	<h2>Certification:</h2>
 						<p>
 							<strong>HackerRank Software Engineer Certificate</strong><br>
 							- Successfully cleared the standardised assessment evaluating core competencies in advanced Python problem-solving, SQL database querying, and REST API architecture.<br>
 							- Demonstrated proficiency in designing optimal algorithms under algorithmic execution time limits (Runtime Performance Constraints).<br>
 							- Validated industry-standard backend skills by passing hands-on tracking modules for complex data manipulation and server-side request integration.<br>
-							<a href="images/hackerrank_se_certificate.pdf">View Certificate</a>
+							<a href="images/hackerrank_se_certificate.pdf" target="_blank">View Certificate</a>
 						</p>
 						<p>
 							<strong>100 Days of Code: The Complete Python Pro Bootcamp</strong><br>
@@ -145,7 +143,7 @@
 							- Applied Python for data science and machine learning projects.<br>
 							- Built interactive games such as Blackjack, Pong, and Snake using Python.<br>
 							- Designed and implemented GUIs and desktop applications with Python.<br>
-						<a href="images/udemy_python_cerification.pdf">View Certificate</a>
+						<a href="images/udemy_python_cerification.pdf" target="_blank">View Certificate</a>
 						</p>
 					    <p>
 					        <strong>ANZ Cyber Security Management Virtual Experience Program</strong><br>
@@ -153,10 +151,11 @@
 					        - Proficient in Social Engineering Investigation<br>
 					        - Experienced in Digital Investigation using Wireshark<br>
 					        <em>Tools:</em> Wireshark, Windows 11
-							<a href="images/certificate.pdf"><br>View Certificate</a>
+							<a href="images/certificate.pdf" target="_blank"><br>View Certificate</a>
 					    </p>
 						
 </article>
+
 						<!-- Skills -->
 						<article id="skills">
 							<h2 class="major">Skills</h2>
@@ -165,8 +164,8 @@
 							<h3>Programming Skills</h3>
 							<ul>
 								<li>Python: Expert (experience through coursework)</li>
-								<li>HTML: Skillful (web development)</li>
-								<li>CSS: Skillful (web development)</li>
+								<li>HTML: Skilful (web development)</li>
+								<li>CSS: Skilful (web development)</li>
 								<li>SQL: Experienced (coursework)</li>
 								<li>MIPS: Skillful (coursework)</li>
 								<li>Lua scripting: Experienced (student team)</li>
@@ -184,13 +183,14 @@
 								<li>Critical Thinking</li>
 							</ul>
 						</article>
+
 <!-- Contact -->
 <article id="contact">
     <h2 class="major">Contact</h2>
     <p>Email: <a href="mailto:aritro.dutta16@gmail.com">aritro.dutta16@gmail.com</a></p>
     <ul class="icons">
-        <li><a href="https://www.linkedin.com/in/ar1tro/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-        <li><a href="https://github.com/echooff16" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="https://www.linkedin.com/in/ar1tro/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/echooff16" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
     </ul>
 </article>		
 			</div>
@@ -210,7 +210,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			// Get the current year and inject it into the span with ID 'copyright-year'
 			<script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script> 
 	</body>
 </html>
