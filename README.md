@@ -2,7 +2,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ar1tro/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/echooff16)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=flat&logo=googlechrome&logoColor=white)](https://aritrodutta.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-blue?style=flat&logo=googlechrome&logoColor=white)](https://echooff16.github.io/Portfolio/)
 
 Welcome to the source code repository for my personal portfolio website. I am a **Software Engineering (Honours)** graduate from Monash University with production experience in AI platform engineering, computer vision, full-stack web application development, and autonomous systems.
 
